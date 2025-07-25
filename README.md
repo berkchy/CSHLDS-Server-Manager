@@ -21,21 +21,22 @@ This project provides a management tool for Counter-Strike 1.6 (HLDS) game serve
    ```bash
    sudo dpkg --add-architecture i386
    sudo apt-get update
-   sudo apt-get install lib32gcc1 lib32stdc++6
+   sudo apt-get install lib32stdc++6
    ```
+   *If necessary, install the lib32gcc1 library as well*
 
    **For 64-bit systems:**
    ```bash
    sudo apt-get install lib64stdc++6
    ```
 
-4. Format manager.sh file with dos2unix
+5. Format manager.sh file with dos2unix
    ```bash
    apt install dos2unix -y
    dos2unix manager.sh
    ```
    
-5. Start the server manager:
+6. Start the server manager:
    ```bash
    bash manager.sh
    ```
